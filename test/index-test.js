@@ -6,7 +6,7 @@ describe('introduction(name)', function() {
   })
 })
 
-describe('introductionWithLanguage(name, language)', function() {
+describe('', function() {
   it('takes in two arguments, a name and a language, and returns a phrase using those arguments', function() {
     expect(introductionWithLanguage("Aki", "Ember.js")).toEqual("Hi, my name is Aki and I am learning to program in Ember.js.");
     expect(introductionWithLanguage("Samip", "React")).toEqual("Hi, my name is Samip and I am learning to program in React.");
@@ -19,8 +19,3 @@ describe('introductionWithLanguageOptional(name, language)', function() {
   })
 })
 
-describe('introductionWithLanguageOptional(name, language)', function() {
-  it('takes in two arguments, a name and a language, and the default value can be overridden with an argument', function() {
-    expect(introductionWithLanguageOptional("Gracie", "Python")).toEqual("Hi, my name is Gracie and I am learning to program in Python.");
-  })
-})
